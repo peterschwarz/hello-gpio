@@ -1,6 +1,6 @@
 # hello-gpio
 
-A simple example which blinks an LED attached to GPIO pin 1 on a Raspberry PI 
+A simple example which blinks an LED attached to GPIO pin 17 on a Raspberry PI 
 
 ## Usage
 

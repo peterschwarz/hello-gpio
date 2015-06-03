@@ -1,8 +1,8 @@
 (defproject hello-gpio "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "Basic GPIO examples"
+  :url "https://github.com/peterschwarz/hello-gpio"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.5.1"]
-                 [com.pi4j/pi4j-core "0.0.5"]
-                 [org.clojure/core.async "0.1.278.0-76b25b-alpha"]])
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [clj-gpio "0.1.0"]
+                 [org.clojure/core.async "0.1.346.0-17112a-alpha"]])
