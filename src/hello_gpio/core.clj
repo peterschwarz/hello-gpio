@@ -6,7 +6,6 @@
 (defn blink
   [& {:keys [pin period]
       :or {pin 17 period 1000}}]
-  (println "pin" pin "period" period)
   (let [port (open-port pin
                         :direction :out
                         :digital-result-format :boolean)
